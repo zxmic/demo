@@ -14,9 +14,13 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 
 	}
-	@RequestMapping("/")
-	public String hello(){
-		return "Hello World";
-	}
+	public String  inin(){
+        System.out.println("use inin");
+        return "use inin";
+    }
+//	@RequestMapping("/")
+//	public String hello(){
+//		return "Hello World";
+//	}
 
 }
